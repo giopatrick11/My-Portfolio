@@ -1,8 +1,8 @@
-import picturee from './images/Group-1.png'
+import group from './images/Group.png'
 import webdev from './images/weedev.png'
 import tools from './images/tools.png'
 import database from './images/datas.png'
-
+import group2 from './images/hero-devices.svg' /* group2.png*/
 
 export default function Content (){
      return (
@@ -15,7 +15,11 @@ export default function Content (){
       </section>
 
       <div className="picturee">
-        <img src={picturee} alt="Programming" className="picturee" />
+        <img src={group} alt="Programming"/>
+      </div>
+      
+      <div className="pictureee">
+        <img src={group2} alt="Screens"/>
       </div>
 
       <div className="introduction">
