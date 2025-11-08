@@ -2,6 +2,7 @@ import Navbar from './Navbar.jsx'
 import Content from './Content.jsx'
 import Works from './Works.jsx'
 import Logo from './Logo.jsx'
+import Footer from './Footer.jsx'
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
     <Content />
     <Works />
     <Logo />
+    <Footer />
     </>
   )
 }
